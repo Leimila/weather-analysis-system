@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+   <div class="outer-bg" id="outerBg">
+    <div class="over-lay">
+        <div class="bg-img"></div>
+        <div class="centered-box">
+            <div class="inner-bg">
+                <img src="./images/Sleeping-all-Day-unscreen (1).gif" class="logo">
+            </div>
+            <div class="content">
+                <h2>Weather<br> Forecast</h2>
+            </div>
+            <button id="start-btn" class="btn">Get Started</button>
+            <p class="para">Check any weather</p>
+        </div>
+    </div>
+   </div> 
+   <div class="app-main" id="mainBg" style="display: none;">
+    <div class="app-header">
+       <h4> Get Weather</h4>
+    </div>
+    <div class="searchInputBox">
+        <input type="text" name="" id="Input-box" placeholder="Enter City Name">
+        <button id="search-btn" class="btn">Search</button>
+    </div>
+    <div class="weather-body" id="weather-body"></div>
+   </div>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
